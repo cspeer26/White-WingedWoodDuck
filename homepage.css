@@ -1,0 +1,28 @@
+body {
+  background-color:#FF9AA2;
+}
+
+h1 {
+  text-align: center;
+}
+ 
+.topnav{
+  display: flex; 
+  justify-content:
+  space-between;
+}
+
+.topnav a{
+   float: left;
+   color: Black;
+   text-align: center; 
+   padding: 25px 30px;
+   font-size: 20px;
+
+}
+/* Change the color of links on hover */ 
+.topnav a:hover {
+  /*background-color: black;*/
+  /*text-decoration: underline;*/
+  color: White;
+}
